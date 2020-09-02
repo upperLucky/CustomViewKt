@@ -24,7 +24,7 @@ class DashBoardView(context: Context?, attributeSet: AttributeSet) : View(contex
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val path = Path()
     private val dash = Path()
-    private var currentDash = 10
+    private var currentDash = 5
 
     private lateinit var pathEffect: PathDashPathEffect
     private val pathMeasure = PathMeasure()
